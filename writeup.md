@@ -15,14 +15,9 @@ My pipeline consisted of 5 steps.
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
 
-- Filtering through the hough lines for lines that are not horizontal
-- Then dividing the line points into left and right based on slope and x position
+- Dividing the hough lines into left and right based on slope
 - Then these line points are used calculated an average line, y=mx+b for left and right
-- Then using this used to find four line end points to draw on the image
-
-code credit for draw lines:
-https://github.com/quanhua92/CarND-LaneLines-P1/blob/master/P1.ipynb
-
+- Then using this find x1 and x2 points to draw on the image, since y1 and y2 are constants
 
 ### 2. Identify potential shortcomings with your current pipeline
 
