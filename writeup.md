@@ -20,6 +20,9 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 - Then these line points are used calculated an average line, y=mx+b for left and right
 - Then using this used to find four line end points to draw on the image
 
+code credit for draw lines:
+https://github.com/quanhua92/CarND-LaneLines-P1/blob/master/P1.ipynb
+
 
 ### 2. Identify potential shortcomings with your current pipeline
 
